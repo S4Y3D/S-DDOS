@@ -1,6 +1,6 @@
 # S-DDOS By S4Y3D
 # only for legal purpose
-
+# Copy COde..! So Don't Copy This Code
 
 from queue import Queue
 from optparse import OptionParser
