@@ -45,7 +45,7 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--packet sent! hammering--> \033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--packet sent!Sayed Attacking--> \033[0m")
 			else:
 				s.shutdown(1)
 				print("\033[91mshut<->down\033[0m")
@@ -83,8 +83,8 @@ def usage():
     | Github   : github.com/S4Y3D    |
     | Facebook : Facebook.com/S4YED10|
     ==================================
-	It is the end user's responsibility to obey all applicable laws.
-	It is just for server testing script. Your ip is visible. \n
+It is the end user's responsibility to obey all applicable laws.
+It is just for server testing script. Your ip is visible. \n
     
 
 	usage : python3 S-DDOS.py [-s] [-p] [-t]
